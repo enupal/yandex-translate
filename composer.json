@@ -1,0 +1,20 @@
+{
+    "name": "enupal/yandex-translate",
+    "type": "library",
+    "description": "Online service for machine translation for over 40 languages.",
+    "keywords": [
+        "enupal",
+        "yandex-translate"
+    ],
+    "homepage": "https://github.com/enupal/yandex-translate",
+    "license": "MIT",
+    "require": {
+        "php" : ">=5.3.0",
+		"ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Enupal\\YaTranslate\\": "src"
+        }
+    }
+}
